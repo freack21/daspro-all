@@ -1,0 +1,15 @@
+C:\Users\fixri\Desktop\Project\The Adventure\bin\Debug\net6.0\The Adventure.exe
+C:\Users\fixri\Desktop\Project\The Adventure\bin\Debug\net6.0\The Adventure.deps.json
+C:\Users\fixri\Desktop\Project\The Adventure\bin\Debug\net6.0\The Adventure.runtimeconfig.json
+C:\Users\fixri\Desktop\Project\The Adventure\bin\Debug\net6.0\The Adventure.dll
+C:\Users\fixri\Desktop\Project\The Adventure\bin\Debug\net6.0\The Adventure.pdb
+C:\Users\fixri\Desktop\Project\The Adventure\obj\Debug\net6.0\The Adventure.csproj.AssemblyReference.cache
+C:\Users\fixri\Desktop\Project\The Adventure\obj\Debug\net6.0\The Adventure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fixri\Desktop\Project\The Adventure\obj\Debug\net6.0\The Adventure.AssemblyInfoInputs.cache
+C:\Users\fixri\Desktop\Project\The Adventure\obj\Debug\net6.0\The Adventure.AssemblyInfo.cs
+C:\Users\fixri\Desktop\Project\The Adventure\obj\Debug\net6.0\The Adventure.csproj.CoreCompileInputs.cache
+C:\Users\fixri\Desktop\Project\The Adventure\obj\Debug\net6.0\The Adventure.dll
+C:\Users\fixri\Desktop\Project\The Adventure\obj\Debug\net6.0\refint\The Adventure.dll
+C:\Users\fixri\Desktop\Project\The Adventure\obj\Debug\net6.0\The Adventure.pdb
+C:\Users\fixri\Desktop\Project\The Adventure\obj\Debug\net6.0\The Adventure.genruntimeconfig.cache
+C:\Users\fixri\Desktop\Project\The Adventure\obj\Debug\net6.0\ref\The Adventure.dll

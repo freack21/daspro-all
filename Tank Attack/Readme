@@ -1,0 +1,17 @@
+Fikri Rivandi
+Tank Attack
+
+Program ini adalah sebuah game yang dimana playernya diharuskan menebak
+posisi dari tank musuh dari koordinat yang ada.
+Jika tebakan benar, maka tank musuh akan hancur.
+
+v1.0
+- Menggunakan array, function, perulangan, dan percabangan
+- Game berjalan sempurna
+
+Wishlist
+- Menambah animasi tank hancur
+- Menambah sistem kesempatan menjawab
+- Menambah sistem skor
+- Menambah jumlah player (multiplayer)
+- Upgrade version

@@ -1,0 +1,15 @@
+C:\Users\fixri\Desktop\Project\Suit\bin\Debug\net6.0\Suit.exe
+C:\Users\fixri\Desktop\Project\Suit\bin\Debug\net6.0\Suit.deps.json
+C:\Users\fixri\Desktop\Project\Suit\bin\Debug\net6.0\Suit.runtimeconfig.json
+C:\Users\fixri\Desktop\Project\Suit\bin\Debug\net6.0\Suit.dll
+C:\Users\fixri\Desktop\Project\Suit\bin\Debug\net6.0\Suit.pdb
+C:\Users\fixri\Desktop\Project\Suit\obj\Debug\net6.0\Suit.csproj.AssemblyReference.cache
+C:\Users\fixri\Desktop\Project\Suit\obj\Debug\net6.0\Suit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fixri\Desktop\Project\Suit\obj\Debug\net6.0\Suit.AssemblyInfoInputs.cache
+C:\Users\fixri\Desktop\Project\Suit\obj\Debug\net6.0\Suit.AssemblyInfo.cs
+C:\Users\fixri\Desktop\Project\Suit\obj\Debug\net6.0\Suit.csproj.CoreCompileInputs.cache
+C:\Users\fixri\Desktop\Project\Suit\obj\Debug\net6.0\Suit.dll
+C:\Users\fixri\Desktop\Project\Suit\obj\Debug\net6.0\refint\Suit.dll
+C:\Users\fixri\Desktop\Project\Suit\obj\Debug\net6.0\Suit.pdb
+C:\Users\fixri\Desktop\Project\Suit\obj\Debug\net6.0\Suit.genruntimeconfig.cache
+C:\Users\fixri\Desktop\Project\Suit\obj\Debug\net6.0\ref\Suit.dll

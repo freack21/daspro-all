@@ -1,0 +1,15 @@
+C:\Users\fixri\Desktop\Project\Tank Attack\bin\Debug\net6.0\Tank Attack.exe
+C:\Users\fixri\Desktop\Project\Tank Attack\bin\Debug\net6.0\Tank Attack.deps.json
+C:\Users\fixri\Desktop\Project\Tank Attack\bin\Debug\net6.0\Tank Attack.runtimeconfig.json
+C:\Users\fixri\Desktop\Project\Tank Attack\bin\Debug\net6.0\Tank Attack.dll
+C:\Users\fixri\Desktop\Project\Tank Attack\bin\Debug\net6.0\Tank Attack.pdb
+C:\Users\fixri\Desktop\Project\Tank Attack\obj\Debug\net6.0\Tank Attack.csproj.AssemblyReference.cache
+C:\Users\fixri\Desktop\Project\Tank Attack\obj\Debug\net6.0\Tank Attack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fixri\Desktop\Project\Tank Attack\obj\Debug\net6.0\Tank Attack.AssemblyInfoInputs.cache
+C:\Users\fixri\Desktop\Project\Tank Attack\obj\Debug\net6.0\Tank Attack.AssemblyInfo.cs
+C:\Users\fixri\Desktop\Project\Tank Attack\obj\Debug\net6.0\Tank Attack.csproj.CoreCompileInputs.cache
+C:\Users\fixri\Desktop\Project\Tank Attack\obj\Debug\net6.0\Tank Attack.dll
+C:\Users\fixri\Desktop\Project\Tank Attack\obj\Debug\net6.0\refint\Tank Attack.dll
+C:\Users\fixri\Desktop\Project\Tank Attack\obj\Debug\net6.0\Tank Attack.pdb
+C:\Users\fixri\Desktop\Project\Tank Attack\obj\Debug\net6.0\Tank Attack.genruntimeconfig.cache
+C:\Users\fixri\Desktop\Project\Tank Attack\obj\Debug\net6.0\ref\Tank Attack.dll

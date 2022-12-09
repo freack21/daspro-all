@@ -1,0 +1,24 @@
+Fikri Rivandi
+2207112583
+TI-B
+
+- Adventure: The Game -
+Pada game ini, Player akan masuk ke dunia petualangan yang sangat gelap.
+Disana, Player akan menemukan masuk ke dunia kegelapan, dimana anak buah dan raja kegelapan berada.
+Player ditugaskan untuk mengalahkan raja terakhir. Namun, ini bukanlah hal yang mudah.
+
+- What's the Problem? -
+1. Menambahkan 2 enemy lagi dengan damage yang lebih besar.
+2. Tambahkan WorldBoss dengan HP = 1000, damage = 3 * damagePlayer, dan damageSkill = 30% dari hpPlayer
+3. Membuat role hero baru:
+   - Knight = Skill Bash (Stun enemy, enemy can't attack 2 turn)
+   - Wizard = Skill Lightning Bold (jika mana >= 30)
+   - Priest = Skill Heal (jika mana >= 30)
+   - Rogue = Skill Raging Blow (Multiple attack)
+
+- Deskripsi -
+1. Sehabis membunuh musuh, Player mendapat EXP dan Energy tambahan
+2. Selama Player memberikan serangan dengan skill, damage terus meningkat
+3. Setelah kehabisan Energy, damage Player menjadi default
+4. Selama Enemy tidak mendapatkan damage dari Player, maka damagenya akan terus meningkat ketika menyerang Player
+5. dll.

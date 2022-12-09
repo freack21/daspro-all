@@ -1,0 +1,151 @@
+﻿using System;
+
+namespace Dadu
+{
+    class Program
+    {
+
+        static void Main(string[] args)
+        {
+            Console.Clear();
+            int[] d1=new int[3];
+            int[] d2=new int[3];
+            int r;
+            int[] s=new int[2];
+            String n="Player1";
+
+            while(n=="Player1")
+            {
+                Console.WriteLine("Halo, Player!");
+                Console.Write("Masukkan IGN: "); n=Console.ReadLine();
+            }
+
+            Console.Clear();
+            Console.Write("Welcome, "+n+"!\nLoading...   ");
+            int t = 3;
+            while(t > 0)
+            {
+                Console.SetCursorPosition(Console.CursorLeft-2,Console.CursorTop);
+                Console.Write(t+"s");
+                t--;
+                Thread.Sleep(1000);
+            }
+
+            Random rng = new Random();
+
+            for(r = 1; r<=10;r++)
+            {
+                Console.Clear();
+                Console.WriteLine("Ronde "+r);
+                Console.Write("Skor "+n+": "+s[0]+"\tSkor Komputer: "+s[1]);
+                Console.WriteLine("\n---------------------------------------");
+                Console.WriteLine("Pada game ini, Player dan Komputer akan mengocok 2 dadu.");
+                Console.WriteLine("Jumlah mata dadu akan ditambahkan, yang jumlah nya paling tinggi,");
+                Console.WriteLine("dialah pemenangnya.\n");
+
+                Console.Write("Mulai? [y/n] ");
+                if(Console.ReadKey().KeyChar == 'n')
+                {
+                    break;
+                }
+
+                Console.WriteLine("\n\n-Giliran "+n+"-");
+                Console.Write("Mengocok.");
+                t = 2;
+                while(t > 0)
+                {
+                    d1[t-1] = rng.Next(1,7);
+                    Console.Write("..");
+                    t--;
+                    Thread.Sleep(1000);
+                }
+                Console.WriteLine("\n\nDadu 1: "+d1[0]);
+                Console.WriteLine("Dadu 2: "+d1[1]);
+                Console.WriteLine("Jumlah: "+(d1[2]=d1[1]+d1[0]));
+                Console.WriteLine(" ");
+
+                Thread.Sleep(1000);
+
+                Console.WriteLine("-Giliran Komputer-");
+                Console.Write("Mengocok.");
+                t = 2;
+                while(t > 0)
+                {
+                    d2[t-1] = rng.Next(1,7);
+                    Console.Write("..");
+                    t--;
+                    Thread.Sleep(1000);
+                }
+                Console.WriteLine("\n\nDadu 1: "+d2[0]);
+                Console.WriteLine("Dadu 2: "+d2[1]);
+                Console.WriteLine("Jumlah: "+(d2[2]=d2[1]+d2[0]));
+                Console.WriteLine(" ");
+
+                Thread.Sleep(1000);
+
+                Console.WriteLine("-Hasil-");
+                if(d1[2] > d2[2])
+                {
+                    Console.WriteLine(d1[2]+" < "+d2[2]);
+                    Console.WriteLine(n+" Menang!");
+                    s[0]++;
+                }
+                else if(d1[2] < d2[2])
+                {
+                    Console.WriteLine(d1[2]+" > "+d2[2]);
+                    Console.WriteLine("Komputer Menang!");
+                    s[1]++;
+                }
+                else
+                {
+                    Console.WriteLine(d1[2]+" = "+d2[2]);
+                    Console.WriteLine("Draw!");
+                }
+
+                Console.Write("\nLanjut? [y/n] ");
+                if(Console.ReadKey().KeyChar == 'n')
+                {
+                    break;
+                }
+
+            }
+            Console.Clear();
+            if(r>=10)
+            {
+                Console.Write("Skor "+n+": "+s[0]+"\tSkor Komputer: "+s[1]);
+                Console.WriteLine("\n--------------------------------------");
+                Console.WriteLine(" ");
+                if(s[0]<s[1])
+                {
+                    Console.WriteLine("KALAH!");
+                    Console.WriteLine(" ");
+                    Console.WriteLine("Komputer memenangkan game.\nBetter luck next time.");
+                }
+                else if(s[0]>s[1])
+                {
+                    Console.WriteLine("MENANG!");
+                    Console.WriteLine(" ");
+                    Console.WriteLine(n+" memenangkan game.\nHEBAT!");
+                }
+                else
+                {
+                    Console.WriteLine("DRAW!");
+                    Console.WriteLine(" ");
+                    Console.WriteLine("Komputer dan "+n+" memiliki skor yang sama.\nCobala lagi!");
+                }
+            }
+            else
+            {
+                Console.WriteLine("---------");
+                Console.WriteLine("GAME OVER");
+                Console.WriteLine("---------");
+                Console.WriteLine("Anda mengakhiri game di ronde "+r);
+                Console.WriteLine("\nSkor sementara:");
+                Console.WriteLine("- "+n+": "+s[0]);
+                Console.WriteLine("- Komputer: "+s[1]);
+                Console.WriteLine("\nAyo main lagi dan kalahkan musuh kita!");
+            }
+            Console.Write("\nEnter.."); Console.ReadKey();
+        }
+    }
+}

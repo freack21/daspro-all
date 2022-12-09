@@ -1,0 +1,65 @@
+
+        /*
+        static string Bordered(int l)
+        {
+            string str = "";
+            for(int i = 0; i < l; i++)
+            {
+                str += "-";
+            }
+            return str;
+        }
+        */
+                    Console.WriteLine("[1] Continue Battle [2] Run Away");
+                    Console.Write(">> ");
+                    string input = Console.ReadLine();
+                    if(input == "2")
+                        player.RunAway();
+        static void Play()
+        {
+            Console.Clear();
+
+            Console.WriteLine("Welcome, New Player!\nWhat is your name?");
+            Console.Write(">> ");
+            string str = Console.ReadLine();
+            Console.Clear();
+
+            Console.WriteLine($"Hello, {str}!\nChoose your role:");
+            Console.WriteLine("1. N");
+            Console.Write(">> ");
+            int i = int.Parse(Console.ReadLine());
+
+            Player player = new Player("",0);
+        }
+
+    class Wizard
+    {
+        public Wizard()
+        {
+            //
+        }
+    }
+
+    class Knight
+    {
+        public Knight()
+        {
+            //
+        }
+    }
+
+    class Rogue
+    {
+        public Rogue()
+        {
+            //
+        }
+    }
+
+    class Priest
+    {
+        public Priest()
+        {
+            //
+        }
+    }
